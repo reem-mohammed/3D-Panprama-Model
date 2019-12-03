@@ -1,0 +1,604 @@
+1 .Hardware Requirements
+-------------------------
+	•	Minimum  System Requirements
+  •	512 MB       RAM.
+	•	Processor 700 MGHZ.
+	•	Hard Disk Space almost 40 MB.
+  •	Recommended System Requirements(it is better for using)
+  •	1GB     RAM.
+	•	Processor 2.16 MGHZ.
+	•	Hard Disk Space 100 MB.
+
+2 .Software Requirements
+-------------------------
+- Operating System.
+ -zend studio for eclipse.                                                              
+- Panorama maker.
+- wamp serve.                                                                  
+- Macromedia flash player.
+- 3Dmax.
+- Macromedia dream weaver.
+- Adobe photo shop CS3.
+
+----------------------------
+Project Introduction (overview):
+
+My University panorama site is a web site which made to new students of faculty of computers and information (FCI) who don’t know the system of the faculty, or don’t know anything about faculty places or its buildings, teaching assistants and doctors’ rooms. 
+As we know that new students who come to the faculty of computer and information (FCI) don’t know anything about the faculty system .Most of students don’t know exactly the place of faculty or its places like, labs, new building, and other class’s .New students don’t know anything in the faculty about its courses and departments. Students may be faced problems to contact the staff of the faculty so it will be easy through our site. 
+If the student is at the first year he can know all information required about the faculty, his/her doctors and his /her teaching assistants.
+FCI panorama site provide a new chance to new students to know (classes)places lectures by panoramic flashes which show all( faculty places )places that included in the faculty not places of lectures and sections only so student can know every place of the faculty before entering it.
+Also visitors can watch whole faculty before visiting through panoramic flashes. 
+The user doesn’t need any registrations to enter the site so the user can enter the site easily at any time.
+The user may be: new student, visitor, student wants to ask about course and doesn’t know faculty places of the faculty place.
+So he /she will enter the site and watch the main map flash then enter the faculty 3D MAX model of the faculty and choose the place he want to see its panorama by clicking the building model he can see place flash and the related flashes to the building for examples the labs of new building 
+The user can make search by entering building name which will appear in the map and choose it and watch its flash, the additional thing that after the user see the place he/she want the path of the chosen place will appear
+User after choosing the panorama he want to see he can see some buttons which reach him to the information of the place he choose 
+Also FCI panorama site has some links to some places of the faculty like faculty library, scientific calculus centre and statistics institute.
+Our solution is a good way to help student be familiar with his faculty and to know a lot of information about it before entering the faculty.
+
+---------------------------
+Problem statement (Problem Space Definition):
+
+New students who come to the faculty of computer and information (FCI) who don’t know anything about the faculty system
+Most of students don’t know exactly the place of faculty or its places like, labs, new building, and other classes
+New students don’t know anything in the faculty about its courses and departments. 
+Also students who want to take courses and don’t know where to reserve that courses or where the course will be token in our faculty.
+Visitors who will visit the faculty for the first time who don’t know the faculty place or the buildings of the faculty so they can enter our site and know faculty place in the map and all faculty buildings 
+
+------------------------------
+Scope:
+Our scope is designing and implementing a website that interacts with the students who are new to the faculty and wants to explore it by watching the whole faculty without visiting it through our panorama view.
+ Also visitors can watch our faculty through the panoramic flashes so they can determine the place they want to visit.
+So the main scope of our site is to increase the feasibility and flexibility.
+Students will be able to (have the first priority in our site)
+	•	Learn about the education of the faculty through seeing faculty places.
+	•	Watch video of any place of the faculty
+	•	See place of doctors and TAs offices so they can contact them 
+
+Visitors will be able to:
+	•	See whole panorama of faculty. 
+------------------------------                                                                    
+1.4 Lifecycle model:
+System Development Life Cycle:
+ The System Development Life Cycle (SDLC) is a conceptual model used in project management that describes the stages involved in an information system development project from an initial feasibility study through maintenance of the completed application.
+ Mostly, several models are combined into some sort of hybrid methodology.
+ Documentation is crucial regardless of the type of model chosen or devised for any application, and is usually done in parallel with the development process. 
+
+Some methods work better for specific types of projects, but in the final analysis, the most important factor for the success of a project 
+may be how closely particular plan was followed.
+Briefly on different Phases: 
+---------------------------------------------------
+Feasibility :
+The feasibility study is used to determine if the project should get the go-ahead. If the project is to proceed, the feasibility study will produce a project plan and budget estimates for the future stages of development. 
+Requirement Analysis and Design 
+Analysis gathers the requirements for the system. This stage includes a detailed study of the business needs of the organization. Options for changing the business process may be considered.
+ Design focuses on high level design like, what programs are needed and how are they going to interact, low-level design (how the individual programs are going to work), interface design (what are the interfaces going to look like) and data design (what data will be required).
+ During these phases, the software's overall structure is defined. Analysis and Design are very crucial in the whole development cycle. Any glitch in the design phase could be very expensive to solve in the later stage of the software development. Much care is taken during this phase. The logical system of the product is developed in this phase. 
+
+ Implementation 
+In this phase the designs are translated into code. Computer programs are written using a conventional programming language or an application generator.
+
+In our site we used a lot of languages like:
+ActionScript,php and mysql.
+And used a lot of programs like:
+ zend studio for eclipse, wamp server, macromedia flash player, 3Dmax, adobe photo shop, macromedia dream weaver, panorama maker 4.
+
+ Testing                              
+In this phase the system is tested. Normally programs are written as a series of individual modules, these subjects to separate and detailed test. The system is then tested as a whole.
+ The separate modules are brought together and tested as a complete system. 
+The system is tested to ensure that interfaces between modules work (integration testing), the system works on the intended platform and with the expected volume of data (volume testing) and that the system does what the user requires (acceptance/beta testing). 
+
+
+Maintenance 
+Inevitably the system will need maintenance. Software will definitely undergo change once it is delivered to the customer. There are many reasons for the change.
+ Change could happen because of some unexpected input values into the system. In addition, the changes in the system could directly affect the software operations.
+ The software should be developed to accommodate changes that could happen during the post implementation period. 
+The waterfall model is sequential software development process, in which progress is seen as flowing steadily downwards (like waterfall) through the phases of Conception, Initiation ,Analysis ,Design (validation), Construction and testing 
+
+
+Advantages of Waterfall Software Development
+	•	It is very easy yet powerful method of software development. The phases are arranged so that it helps even the new developers to understand the “big picture” of how to go about developing the software through the software development life cycle.
+  •	It calls for a disciplined approach to save on project time and cost as well effort. Otherwise the implementation team may develop a code only to realize later that it was not at all required. This happens much more than one might realize and it cause issues both in development and testing.
+  •	The project management stakeholders are forced to correctly define the business requirements documentation (BRD) and the project management requirements. At the sometimes the developers are forced to understand these Thoroughly before they start writing the software requirements specification (SRS), high level design and code
+  •	It essentially requires documentation at every stage. This gives better understanding of the requirements, the logic of the codes and tests that were conducted on the software.
+
+
+ 
+Disadvantages of Waterfall Software Development
+	•	In this method, all the requirements of the software need to be specified upfront and there is no room for committing mistakes.
+  •	The project scope statement needs to be detailed in infinite depth from the start because changes are not possible when using waterfall methodology. This is because the only way to amend something which has been already developed is to go back and start again. This will cause huge problems on projects where the project sponsors are indecisive and quickly causes scope creep.
+  •	Key team members stay idle for long durations. You see Waterfall does not operate on a matrix basis which makes project resource management an extremely rigid activity. Basically those allocated to the project stay on it until that phase is over. This as you can imagine, has a direct knock on effect on the project budget.
+  •	It is a very rigid method which does not entertain any change in requirements and which makes any subsequent functionality changes required extremely difficult and expensive to implement. As such the fast pace of changing requirements determined makes this methodology difficult to use and calls for more nimble methods of 
+  •	Software development such as agile methodology or SCRUM methodology.
+Assumptions
+1.5.1 All users who are students or visitors have the system requirements either software requirements or hardware requirements that indeed required.
+1.5.2Users has no difficulty in filling any forms in the site
+1.5.3All users know what the site will serve them.
+1.5.4Users knows the basic of how to use any site.
+1.5.5Users knows the basic of showing flashes of the places.
+System Definition
+The Project Name: FCI Panorama
+It’s site  to the faculty of computer and information that have different idea ,it’s idea about having a tour around the whole faculty showing all places inside it like the main entry, gardens, all labs that make visitors in between them .
+At the first page our site provided with a map that will show where the place of our faculty from any other place that is very interesting idea to all students. when the user enter the site he /she will find a map of Cairo and Giza, Then it will take the user closer and closer then to the Cairo university then to faculty of computers and information where the user can choose place which he want to watch.
+
+A simple description of how the user will use the site
+Firstly:
+The user doesn’t need any registrations to enter the site so the user can enter the site easily without any restrictions.
+Secondly:
+The user may be:
+1-new student
+2-visitor
+3-student wants to ask about course and doesn’t know faculty places of the faculty place.
+So he will enter the site and watch the main map flash then enter the faculty 3D MAX model of the faculty and choose the place he want to see its panorama by clicking the building model he can see place flash and the related flashes to the building for examples the labs of new building 
+Thirdly:
+The user can make search by building name which will appear in the map and choose it and watch its flash , furthermore he/she can show model of students that walk through the faculty to show the actual path to the place wanted.
+
+Fourthly:
+User after choosing the panorama he want to see he can see some buttons which reach him to the information of the place he choose              
+
+Chapter 2
+Fci panorama system
+
+Objectives:
+The main objective is to achieve the collaboration between new students who never know any information about their faculty of computer and information (FCI) and want to know about faculty places that lead us to make design with flash pictures to show places and take a tour around the whole faculty to satisfy viewing it at all. This is also for visitors of the faculty. 
+
+•	System Goals
+Effective to use (effectiveness).
+Efficient to use (efficiency).
+Easy to learn.
+Easy to remember.
+High speed in saving and accessing.
+Make new students familiar with their new faculty .
+
+                                
+
+The system is built for:
+Students:
+New students who come to the faculty and don’t know anything about places or faculty entire, labs, new building, and other classes. He can know also doctors and teaching assistant’s rooms.
+Student who wants to take courses at the faculty and people want to know information about the faculty and place they will take the course.
+Visitors of the faculty who don’t know faculty place or faculty buildings.
+
+
+System Requirements
+First the meaning of system requirements :these are the necessary specifications that user' computer must have in order to use the new software, so any one use the software for his/her own computer should check and make sure that his/her computer support the system requirements .
+Secondly system requirements are divided into two mainly parts:
+
+
+1 .Hardware Requirements
+
+	•	Minimum  System Requirements
+  •	512 MB       RAM.
+	•	Processor 700 MGHZ.
+	•	Hard Disk Space almost 40 MB.
+  •	Recommended System Requirements(it is better for using)
+  •	1GB     RAM.
+	•	Processor 2.16 MGHZ.
+	•	Hard Disk Space 100 MB.
+
+2 .Software Requirements
+
+- Operating System.
+ -zend studio for eclipse.                                                              
+- Panorama maker.
+- wamp serve.                                                                  
+- Macromedia flash player.
+- 3Dmax.
+- Macromedia dream weaver.
+- Adobe photo shop CS3.
+                                                            
+user requirements
+Functional requirement
+User functions
+Open the site
+The user can opening the site by writing the (URL) of the site at his/her browser so he\she need internet to open it 
+Choose map places
+This map is a flash map for Cairo and Giza then the map will take the user to the Cairo University then to the faculty .The user can see all places at faculty through the 3DMAX map and choose the place he wants to see its video. Then the user can choose the place he wants to see its video.  
+
+Watch flash video of any place 
+The user can choose the flash panorama of building he want to watch he can also moving at it  by mouse and know every place in it
+Use place information
+When the user enter the site and watch the flash he can know all the information about the place of that flash through some buttons.
+ Contact us
+ The user can contact the stuff of the site and can know anything he wants about the site
+about us
+User can know some information about site administrator through that link
+ Search
+User can search about specific place as if he want for example know new building place he can Search for it in the 3DMAX map so the result will appear as the building he want to search for in a lightening form.
+Close the site
+After user finished browsing it 
+
+
+ Non function requirement
+Usability
+The system allows the users to access the system from the Internet. The system uses a web browser as an interface. 
+Since all users are familiar with the general usage of browsers, no specific training is required.
+The system is user friendly and self-explanatory.
+User can use the system without training.
+
+ Reliability / availability
+The system is available for all users all day; the system is available for all users all day.
+The system will be operational 24 hours a day and 7 days a week, The system will be developed in such a way that it may fail once in a year.
+Even if the system fails, the system will be recovered back up within an hour or less.
+ The accuracy of the system is limited by the accuracy of the speed at which the owners of the site and users of it use the system which mean time between failures, mean time to repair, accuracy, And maximum acceptable bugs.
+
+
+Performance
+
+ The system shall take as less time as possible to provide service to the administrators or the users. The number of transactions is directly dependent on the number of people; the people may be the new student, student of faculty, student who take course, doctor, teaching assistant.
+ The system is capable of handling a lot of users at a time.
+
+Supportability
+The system designers will take in to considerations the supportability and technical limitations.
+The system will be complying with the TCP/IP protocol standards and will be designed accordingly. The system shall support the information security requirements and use the same standard as the information security requirements. The maintenance of the system will be done as per the maintenance contract.
+The system shall allow users to create new workflows, without the need for additional programming   
+
+Quality of Service Requirements
+All Web pages must download within three seconds during an average load, and five seconds during a peak load
+
+
+
+Security
+ Security refers to the ability to prevent and/or forbid access to the system by unauthorized parties. Some examples of security Requirements are:
+-User authentication shall be via the corporate Single
+-Sign-on system.
+Scalability
+ The ease with which a system or component can be Modified to handle a large increase in users, workload or transactions.
+
+
+
+
+DFD (data flow Diagram)  
+ Use case diagram
+	•	Choose map places
+
+Figure 2.1: choose map places use case
+
+
+Use case narrative
+
+Table 2.1: choose map place use case narrative
+Use case name
+Choose map place
+Participating actor
+New student, student course and visitors
+Entry condition
+Users want to choose a specific place to watch it’s panorama 
+Flow of events
+When the user enters the site he will find a map. then he can choose the place he want to watch then the video will be ready to be watched
+Exit condition 
+No exit condition 
+Exceptions 
+No exception
+
+
+
+ Table 2.2: use place information
+
+Use case name
+use place information
+
+Participating actor
+New student, student course and visitors
+Entry condition
+If the user want to know any info about any place.
+Flow of events
+The user enters the site then he can watch the map of the faculty then he can choose place he want to watch then he can see the info about that place by pressing some buttons.
+Exit condition 
+No condition
+Exceptions 
+No exceptions.
+
+Table 2.3: watch flash video of any place use case narrative
+Use case name
+Watch flash.
+Participating actor
+New student, student course and visitors
+Entry condition
+If the user wants watch flash video of any place.
+Flow of events
+The user enters the site then he can watch the map of the faculty then he can choose place he want to watch then he can see the info about that place.
+Exit condition 
+No condition
+Exceptions 
+No exceptions.
+
+
+
+Table 2.4: search use case narrative
+
+Use case name
+Search 
+Participating actor
+New student, student course and visitors
+Entry condition
+If the user wants to search about specific building on the 3D MAX map so the result of search will appear as a lightening building between all buildings
+Flow of events
+The user enters the site then he can watch the map of the faculty then he can choose building he want to watch its video 
+Exit condition 
+No condition
+Exceptions 
+No exceptions.
+
+
+
+
+
+
+
+
+
+
+ Table 2.5: contact us case narrative
+Use case name
+Contact us
+Participating actor
+New student, student course and visitors
+Entry condition
+If the user wants to contact the administrators of the site.
+Flow of events
+The user enters the site then he /she can contact the a administrators of the site through contact us button
+Exit condition 
+No condition
+Exceptions 
+No exceptions.
+
+ Table 2.6: about us use case narrative
+
+Use case name
+About us
+Participating actor
+New student, student course and visitors
+Entry condition
+If the user wants to know information about the administrators.
+Flow of events
+The user enters the site then he /she can know about the administrator’s information through that link. 
+Exit condition 
+No condition
+Exceptions 
+No exceptions.
+
+
+
+                                 
+ERD (Entity Relationship Diagram)
+
+
+
+
+Entity
+Name
+Data Type
+Description
+
+
+Location
+Location_id (PK)
+Int
+The ID of the location to distinguished with
+
+Location_name
+Varchar(50)
+The name of the location
+
+ Capacity
+text 
+The capacity of the location 
+
+Information
+text
+The information of the location
+
+
+
+
+Entity
+Name
+Data Type
+Description
+
+
+Type_location
+type_id_loc (PK)
+Int
+The ID of the location type
+
+Location_name
+Varchar(50)
+Name of the location type
+
+
+
+
+
+
+
+Entity
+Name
+Data Type
+Description
+
+
+Student
+Student_id (PK)
+Int
+The ID of the student
+
+Student_name
+Varchar(50)
+The name of the student
+
+Password
+Password
+The password of the student 
+
+Mail
+Varchar(50)
+The email of the student
+
+Phone_num
+Int
+The phone number of the student
+
+Addresse
+Varchar(50)
+The address of the student
+
+Major
+text
+The major department of the student
+
+Minor
+text
+The minor department of the student
+
+Level
+Int
+The level of the student 
+
+
+
+                                                           
+
+
+Entity
+Name
+Data type
+Description
+Type_Location
+Loaction_id
+Int
+the ID of the location that related to the table locations
+
+Location_type_name
+text
+the name of the location type for example the new_building that contains all labs so it related to the table named locations
+
+
+
+
+
+
+
+
+
+
+
+
+Relational schema
+
+Students (student_id, student_name, password, mail, phone_num, addresse,  major, minor, level)
+
+
+
+
+main_Location (Location_id, Location_name, type_id_fk (fk), information, schedule_id_fk)
+
+
+Sub_location(type_id_loc, location_id_fk (fk), Location_name)
+
+
+
+
+
+
+
+
+
+Problems which faced our team during project period:
+1-In Connect images together to make panoramic pictures:
+In this step our team found a lot of problems
+We decided to use panorama maker to make panoramic pictures then put it in macromedia flash but when we begin to capture the image we faced problems like the following:-
+1- Faculty places are Disgruntlement unlike Panoramic places which must be wide to make good panoramic pictures which make a lot of problems during capturing.
+2-there is a lot of differences in lights in the faculty places which make differences in light effect that make pictures so bad and make no eye contact.
+3-we find a lot of students everywhere so we faced problem to ask these students to empty the places 
+4-we choose late hours in order to comply with the panoramic camera so that the light is properly distributed
+5-as the Disgruntlement of the places of the faculty and the bad lights the pictures is hard to be made on panorama maker program so we are forced to use Photoshop program to collect our panoramic pictures which also is very hard and took a very big time
+
+
+
+
+
+
+It is an example for a picture that made by panorama maker:
+
+
+
+It is the same picture after editing in photo shop program:
+
+
+
+
+
+
+
+
+2- Connecting panorama with database:
+ it is the most difficult and important stage in our site first the main idea in this flash is if the user click on any flash in the site it must show all data in the database that stored about it 
+For example: if user clicks on lab 7 he/she must see the following
+ 1-the panorama flash which round 360 degree of the lab
+2-the data related to the lab like the number of PCs or any other data (capacity)
+3- The information about each place for example the teaching assistant rooms will contain information about the names of teaching assistant and their office hours .
+
+The problem in this step: 
+The way we connect the database to flash begging from “action Script” in flash program to relate the flash with mysql
+And as we say before this technology is to some extent new and take a lot of effort to have those ideas of connecting action script with php and mysql
+3- Make a map: 
+We think about new students who wants to know the exactly place of the faculty without visiting it so we make a map which content from a flash this flash content of shots to globe zooming In  and zooming In to reach to Cairo and Giza map then zooming In  and zooming In to reach to Cairo university, then zooming In and zooming In to faculty of computers and information 3D MAX map to the faculty then go to choose any place needed to showing inside the faculty.
+The problem of this step:
+ The 2d matrix not helps us in the design as we want to illustrate all parts in the faculty as in the real-world 
+The solution assigned to this problem is that: 
+We design the map using “3d MAX” to be more obvious. Which take also a lot of time and effort? 
+The problems we faced in designing the 3D MAX map are that:
+  There is no one in our faculty using this technology of 3DMAX program so we go to faculty of engineering to Architecture department who use 3D MAX program and asked about how to use this program then we made the map 
+So our site uses a 3DMAX technology in the map of the faculty our team spends a big effort in this step like:
+1-we used Google earth to find our faculty map, we preferred to put globe to reach the user to Cairo and Giza map then our faculty map in 3D model
+2-after we have our faculty map from Google earth we determined to make this map in 3D model to make our map to be more expressive to the reality
+3-we found that we need 3D MAX program and begin to ask how to use that program as it isn’t used in our faculty
+4-so we went to faculty of engineering to have program source and ask about how to use program tools so we went to faculty of engineering more than one time
+5-we found that we must use a scale in our map which is each 2 cm in Google map is 4 cm in 3D MAX map
+6-so we need the building form to began to design it in 3d model so we begin to take photos of each building and Corridors of the faculty from all dimensions
+7-then we began to design it in the 3d MAX program. 
+ 
+
+Future work
+Our site can be improved or extended by that if this idea found admiration of students and visitors, it is possible to implement the whole Cairo University as this idea can make for the whole university for new students and visitors. It can make for the all faculties of the Cairo university it can also make for university theater, university library an all important places for Cairo university. It also can execute for all Egypt universities with all faculties so any overseas students from outside Egypt can choose the university which they want to belong to it.
+
+
+
+
+References
+Those are some web sites which help us in our site ideas:
+	•	http://www.thebeijingguide.com/great_wall_of_china/index.html
+A site which contain a panoramic video
+ 
+	•	http://www.panoramicearth.com/
+Panoramic scene of some   Natural scenery
+ 
+	•	http://www.world-heritage-tour.org/africa/east-africa/kenya/lamu/utukuni-mosque/sphere-flash.html
+Panorama scene of mosque 
+
+	•	http://www.panoramas.dk/2010/queen-margrethe-birthday.html
+
+It is panoramic scene of theater with full screen zooming in and zooming out
+	•	http://www.sailturkey.com/panoramas/ephesus/
+
+This site is consisting of a map then chooses a place of a place which it’s panorama video which will appear.
+
+	•	http://www.jumpeyecomponents.com/Flash-Components/Various/JC-Panorama-305/
+This is the site which gave us the idea of fci panorama site.
+	•	http://www.dnnmodules.cn/Modules/SilverlightPanoramaViewer.aspx
+
+Trial to our panorama
+
+	•	http://www.webwasp.co.uk/tutorials/b31-panorama/index.php
+
+Mouse motion in panorama tutorial
+	•	http://www.foundation-flash.com/tutorials/arrowkeycontrol/
+Explain code of keyboard
+	•	http://3dm1.blogspot.com/ ,
+
+http://www.recipester.org/Recipe:Create_grass_in_3ds_MAX_39203351
+How make grass in 3d max
+	•	http://www.recipester.org/Recipe:Create_checker_map_in_3ds_MAX_36555454
+How to create checker map in 3d MAX
+
