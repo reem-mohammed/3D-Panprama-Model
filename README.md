@@ -21,8 +21,9 @@ Software Requirements:
 - Macromedia dream weaver.
 - Adobe photo shop CS3.
 
-----------------------------
-How to install it?!:
+
+How to install it:
+-----------------------------
 
 1 -Please before you install it make sure that you have these minimum requirements.
 2 -Greate Database named "final" then choose your own username and password you will find initial username and password 'root'.
