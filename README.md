@@ -35,7 +35,7 @@ Installistion Steps:
 
 My project Scope:
 ------------------
-My scope is designing and implementing a website that interacts with the students who are new to specific LIKE faculty  , and wants to explore it by watching the whole faculty without visiting it through our panorama view.
+My scope is designing and implementing a website helps the new students to explore their faculty by watching the whole faculty without visiting it through our panorama view.
  Also visitors can watch our faculty through the panoramic flashes so they can determine the place they want to visit.
 So the main scope of our site is to increase the feasibility and flexibility.
 Students will be able to (have the first priority in our site)
