@@ -24,12 +24,12 @@ Software Requirements:
 Installistion Steps:
 -----------------------------
 
-1 -Please before you install it make sure that you have these minimum requirements.
-2 -Greate Database named "final" then choose your own username and password you will find initial username and password 'root'.
-3 -Install all the flashes swf & fla and put them in the same folder.
-4 -Open the main page by wirting your directory / Folder Name / final_map.html.
-5 -Once you open the the main page you will find the project map it's similer to "Google earth map" so you need choose the location that you search for here i only using my faculty to show.
-6- the left menu has list for all the places that you looking for.
+1 -Please before you install it make sure that you have these minimum requirements.<br>
+2 -Greate Database named "final" then choose your own username and password you will find initial username and password 'root'.<br>
+3 -Install all the flashes swf & fla and put them in the same folder.<br>
+4 -Open the main page by wirting your directory / Folder Name / final_map.html.<br>
+5 -Once you open the the main page you will find the project map it's similer to "Google earth map" so you need choose the location that you search for here i only using my faculty to show.<br>
+6- the left menu has list for all the places that you looking for.<br>
 
 
 
