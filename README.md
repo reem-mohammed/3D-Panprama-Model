@@ -21,8 +21,7 @@ Software Requirements:
 - Macromedia dream weaver.
 - Adobe photo shop CS3.
 
-
-How to install it:
+Installistion Steps:
 -----------------------------
 
 1 -Please before you install it make sure that you have these minimum requirements.
